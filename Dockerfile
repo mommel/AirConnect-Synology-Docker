@@ -1,3 +1,7 @@
+# AirConnect-Synology-Docker
+LABEL version="1.2.12.0"
+LABEL description="AirConnect for Docker on Synology"
+LABEL MAINTAINER="https://github.com/mommel"
 FROM alpine:latest
 RUN apk add --no-cache wget supervisor
 COPY supervisord.conf /etc
