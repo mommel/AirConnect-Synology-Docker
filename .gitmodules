@@ -1,0 +1,4 @@
+[submodule "AirConnect"]
+	path = AirConnect
+	url = https://github.com/philippe44/AirConnect.git
+	branch = master
